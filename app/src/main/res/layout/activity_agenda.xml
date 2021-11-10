@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgendaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtfecha">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvListadoAgenda">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtFisio"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/idEmpleado"/>
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="125dp"
+        android:layout_toRightOf="@id/txtFisio"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/fechaCadena"/>
+    <Button
+        android:id="@+id/getAgenda"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtfecha"
+        android:onClick="verAgenda"
+        android:text="@string/buscar"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/atras"
+        tools:ignore="MissingConstraints">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

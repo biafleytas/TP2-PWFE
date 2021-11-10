@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NuevoTurnoActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:src="@mipmap/atras"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <EditText
+        android:id="@+id/txtTurnoFechaCadenaNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/fechaCadena"/>
+
+    <EditText
+        android:id="@+id/txtTurnoHoraInicioCadenaNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/horaInicioCadena"/>
+
+    <EditText
+        android:id="@+id/txtTurnoHoraFinCadenaNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/horaFinCadena"/>
+
+    <EditText
+        android:id="@+id/txtTurnoIdEmpleadoNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/idEmpleado"/>
+
+    <EditText
+        android:id="@+id/txtTurnoIdClienteNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/idCliente"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:onClick="agregarNuevoTurno"
+        android:layout_height="wrap_content"
+        android:text="@string/agregar"/>
+
+</LinearLayout>

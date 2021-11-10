@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_agenda.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_ficha.xml" value="0.1421875" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_modificar_ficha.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_modificar_paciente.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_modificar_turno.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_nueva_ficha.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_nuevo_paciente.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_nuevo_turno.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_paciente.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_principal.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/activity_turno.xml" value="0.1" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/item_agenda.xml" value="0.2" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/item_ficha.xml" value="0.1421875" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/item_paciente.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/item_turno.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/SONIA/Desktop/E7-Front End/LAboratorio2/proyectoprueba/app/src/main/res/layout/itempaciente.xml" value="0.13020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

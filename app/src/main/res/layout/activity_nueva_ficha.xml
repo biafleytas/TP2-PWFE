@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NuevaFichaActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:id="@+id/fabAtras"
+        android:src="@mipmap/atras"
+        tools:ignore="MissingConstraints">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <EditText
+        android:id="@+id/txtMotivoConsultaNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/motivoConsulta"/>
+
+    <EditText
+        android:id="@+id/txtDiagnosticoNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/diagnostico"/>
+
+    <EditText
+        android:id="@+id/txtObservacionNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/observacion"/>
+
+    <EditText
+        android:id="@+id/txtIdEmpleadoNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/idEmpleado"/>
+
+    <Spinner
+        android:id="@+id/listaC"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtIdTipoProductoNuevo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/tipoProducto"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:onClick="agregarNuevaFicha"
+        android:layout_height="wrap_content"
+        android:text="@string/agregar"/>
+
+</LinearLayout>

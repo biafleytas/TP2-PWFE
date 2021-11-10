@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PacienteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/getApe">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rvListadoPacientes">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/getFisio"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="verFisioterapeutas"
+        android:text="@string/verUsuarios"/>
+
+    <EditText
+        android:id="@+id/txtNom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getFisio"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/getNom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getFisio"
+        android:layout_toRightOf="@id/txtNom"
+        android:onClick="verPorNombre"
+        android:text="@string/buscar" />
+    <EditText
+        android:id="@+id/txtApe"
+        android:layout_width="250dp"
+        android:layout_below="@id/getNom"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/apellido"/>
+    <Button
+        android:id="@+id/getApe"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtApe"
+        android:layout_below="@id/getNom"
+        android:onClick="verPorApellido"
+        android:text="@string/buscar"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNuevoPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/getFisio"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/outline_add_white_48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/atras"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

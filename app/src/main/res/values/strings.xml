@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ProyectoPrueba</string>
+    <string name="usuario">Usuario</string>
+    <string name="id">Id</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="ruc">RUC</string>
+    <string name="ci">CI</string>
+    <string name="tipo">Tipo</string>
+    <string name="fechaNacimiento">Fecha de nacimiento</string>
+    <string name="password">Password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="paciente">Administrar Pacientes</string>
+    <string name="turno">Reserva de turnos</string>
+    <string name="ficha">Ficha clinica</string>
+    <string name="observacion">Observacion</string>
+    <string name="motivoConsulta">Motivo Consulta</string>
+    <string name="diagnostico">Diagnostico</string>
+    <string name="idEmpleado">Empleado</string>
+    <string name="idCliente">Paciente</string>
+    <string name="tipoProducto">Tipo Producto</string>
+    <string name="fechaCadena">Fecha</string>
+    <string name="horaInicioCadena">Hora inicio</string>
+    <string name="horaFinCadena">Hora Fin</string>
+    <string name="agregar">Agregar</string>
+    <string name="modificar">Modificar</string>
+    <string name="verUsuarios">Fisioterapeutas</string>
+    <string name="buscar">Buscar</string>
+    <string name="desde">Desde</string>
+    <string name="hasta">Hasta</string>
+    <string name="credencialNoValida">Usuario/Password incorrecto</string>
+</resources>

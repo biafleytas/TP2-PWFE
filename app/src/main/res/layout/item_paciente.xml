@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPacienteCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPaciente"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPacienteEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPacienteCedula"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPacienteTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPacienteEmail"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPacienteTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPacienteTelefono"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txtPacienteCedula"
+            android:layout_alignRight="@id/txtPacienteCedula"
+            android:src="@mipmap/eliminar"
+            app:backgroundTint="#8BC34A"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent">
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/txtPacienteTelefono"
+            android:layout_alignRight="@id/txtPacienteEmail"
+            android:src="@mipmap/editar"
+            app:backgroundTint="#8BC34A"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent">
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
